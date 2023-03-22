@@ -48,7 +48,7 @@ print(f"Winner: {winner}")
 print("-------------------------")
 
 # Write results to text file
-with open("C:/Users/joshu/OneDrive/Desktop/python-challenge/python-challenge/PyPoll/analysis/PyPoll.txt","w") as file:
+with open("https://raw.githubusercontent.com/B-Aldridge/python-challenge/main/PyBank/analysis/PyBank.txt","w") as file:
     file.write("Election Results\n")
     file.write("-------------------------\n")
     file.write(f"Total Votes: {total_votes:,}\n")
