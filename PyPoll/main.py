@@ -5,6 +5,9 @@ Created on Sat Mar 18 16:26:07 2023
 @author: joshu
 """
 
+import os
+import csv
+
 # Set file path
 polldata = "https://raw.githubusercontent.com/B-Aldridge/python-challenge/main/PyPoll/Resources/election_data.csv"
 
