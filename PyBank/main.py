@@ -9,7 +9,7 @@ import os
 import csv
 
 #declaring absolute path
-budget_data_path = "OneDrive/Desktop/python-challenge/python-challenge/PyBank/Resources/budget_data.csv"
+budget_data_path = "https://raw.githubusercontent.com/B-Aldridge/python-challenge/main/PyBank/Resources/budget_data.csv"
 
 # Initialize variables
 total_months = 0
