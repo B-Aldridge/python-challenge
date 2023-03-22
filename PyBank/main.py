@@ -59,7 +59,7 @@ print(f"Greatest Increase in Profits: {greatest_increase_month} (${greatest_incr
 print(f"Greatest Decrease in Profits: {greatest_decrease_month} (${greatest_decrease})")
 
 # Write results to a text file
-with open("OneDrive/Desktop/python-challenge/python-challenge/PyBank/analysis/PyBank.txt", "w") as txtfile:
+with open("https://raw.githubusercontent.com/B-Aldridge/python-challenge/main/PyBank/analysis/PyBank.txt", "w") as txtfile:
     txtfile.write("Financial Analysis\n")
     txtfile.write("-----------------------------\n")
     txtfile.write(f"Total Months: {total_months}\n")
