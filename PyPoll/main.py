@@ -6,7 +6,7 @@ Created on Sat Mar 18 16:26:07 2023
 """
 
 # Set file path
-polldata = "C:/Users/joshu/OneDrive/Desktop/python-challenge/python-challenge/PyPoll/Resources/election_data.csv"
+polldata = "https://raw.githubusercontent.com/B-Aldridge/python-challenge/PyPoll/Resources/election_data.csv"
 
 # Initialize variables
 total_votes = 0
