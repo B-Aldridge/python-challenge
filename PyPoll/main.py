@@ -51,7 +51,7 @@ print(f"Winner: {winner}")
 print("-------------------------")
 
 # Write results to text file
-output_path = os.path.join("output", "PyPoll.txt")
+output_path = os.path.join("output", "analysis", "PyPoll.txt")
 with open(output_path, "w") as file:
     file.write("Election Results\n")
     file.write("-------------------------\n")
