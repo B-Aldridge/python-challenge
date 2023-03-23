@@ -18,7 +18,7 @@
 
 PyPoll
 
-A list of voting data was provided in the election_data.csv file. Inside the file contains three columns consisting of Voter ID, County, and the Candidate. This dataset is being pulled from the resouces folder inside the election_data.csv file.
+A list of voting data was provided in the election_data.csv file. Inside the file contains three columns consisting of Voter ID, County, and the Candidate. This dataset is being pulled from the resources folder inside the election_data.csv file.
 
 The script will return:
 
