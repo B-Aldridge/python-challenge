@@ -4,7 +4,7 @@ Created on Sat Mar 18 17:53:49 2023
 
 @author: joshu
 """
-#code below allows us access to what is on the computer and csv allows us to read/write the format
+#importing modules
 import os
 import csv
 
