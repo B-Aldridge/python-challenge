@@ -2,7 +2,7 @@
  
  PyBank
 
- A list of financial data was provided in the budget_data.csv file. Inside the file contains two columns consisiting of the date and profit/loss
+ A list of financial data was provided in the budget_data.csv file. Inside the file contains two columns consisiting of the date and profit/loss. The dataset is being pulled from the resources folder inside the budget_data.csv file.
 
  The script will return: 
 
@@ -18,7 +18,7 @@
 
 PyPoll
 
-A list of voting data was provided in the election_data.csv file. Inside the file contains three columns consisting of Voter ID, County, and the Candidate,
+A list of voting data was provided in the election_data.csv file. Inside the file contains three columns consisting of Voter ID, County, and the Candidate. This dataset is being pulled from the resouces folder inside the election_data.csv file.
 
 The script will return:
 
