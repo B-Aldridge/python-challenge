@@ -8,8 +8,8 @@ Created on Sat Mar 18 17:53:49 2023
 import os
 import csv
 
-#declaring absolute path
-budget_data_path = "OneDrive/Desktop/python-challenge/python-challenge/PyBank/Resources/budget_data.csv"
+#declaring path
+budget_data_path = "Resources/budget_data.csv"
 
 # Initialize variables
 total_months = 0
@@ -59,7 +59,7 @@ print(f"Greatest Increase in Profits: {greatest_increase_month} (${greatest_incr
 print(f"Greatest Decrease in Profits: {greatest_decrease_month} (${greatest_decrease})")
 
 # Write results to a text file
-with open("OneDrive/Desktop/python-challenge/python-challenge/PyBank/analysis/PyBank.txt", "w") as txtfile:
+with open("analysis/PyBank.txt", "w") as txtfile:
     txtfile.write("Financial Analysis\n")
     txtfile.write("-----------------------------\n")
     txtfile.write(f"Total Months: {total_months}\n")
@@ -67,5 +67,3 @@ with open("OneDrive/Desktop/python-challenge/python-challenge/PyBank/analysis/Py
     txtfile.write(f"Average Change: ${round(average_change, 2)}\n")
     txtfile.write(f"Greatest Increase in Profits: {greatest_increase_month} (${greatest_increase})\n")
     txtfile.write(f"Greatest Decrease in Profits: {greatest_decrease_month} (${greatest_decrease})\n")
-
-    

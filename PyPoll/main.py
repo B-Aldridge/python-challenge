@@ -4,9 +4,11 @@ Created on Sat Mar 18 16:26:07 2023
 
 @author: joshu
 """
+import os
+import csv
 
 # Set file path
-polldata = "C:/Users/joshu/OneDrive/Desktop/python-challenge/python-challenge/PyPoll/Resources/election_data.csv"
+polldata = "Resources/election_data.csv"
 
 # Initialize variables
 total_votes = 0
@@ -48,7 +50,7 @@ print(f"Winner: {winner}")
 print("-------------------------")
 
 # Write results to text file
-with open("C:/Users/joshu/OneDrive/Desktop/python-challenge/python-challenge/PyPoll/analysis/PyPoll.txt","w") as file:
+with open("analysis/PyPoll.txt","w") as file:
     file.write("Election Results\n")
     file.write("-------------------------\n")
     file.write(f"Total Votes: {total_votes:,}\n")
